@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header
+      class="font-mono bg-slate-800 text-center h-80 items-center header flex items-center justify-center"
+    >
+      <div class="head">
+        <h1 class="text-5xl text-orange-500 font-bold pb-3">
+          Select Your Best Five
+        </h1>
+        <p class="text-lg font-medium text-white">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit <br />
+          officia consequat duis enim velit mollit. Exercitation veniam
+          consequat sunt <br />
+          nostrud amet
+        </p>
+      </div>
+    </header>
+
+    <main class="mt-8">
+      <div class="main-section grid grid-cols-3">
+        <div class="players grid grid-cols-3 col-span-2 ml-5">
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/victor.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+
+              <button class="btn btn-primary">Select</button>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/2.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/3.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/messi.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/sergio.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-base-75 shadow-xl h-3/4">
+            <img class="h-2/4" src="players/fotor_2023-2-9_22_3_56.png" />
+
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-extrabold">Sergio Ramos</h2>
+              <div
+                class="card-text text-xl font-semibold text-gray-400 flex items-center justify-around gap-4"
+              >
+                <p>6 Goals</p>
+                <p>.</p>
+                <p>120 Assist</p>
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Select</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculation">
+          <div class="selected-players mb-8">
+            <h3 class="text-4xl font-bold pb-3">Selected V</h3>
+            <div class="names">
+              <ol></ol>
+            </div>
+          </div>
+          <div class="budget">
+            <h3 class="text-4xl font-bold pb-3">Budget</h3>
+            <p>Per Player Cost:</p>
+            <input type="number" name="" placeholder="Per Player" id="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
